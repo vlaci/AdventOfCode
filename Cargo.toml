@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2024 László Vaskó <vlaci@fastmail.com>
+#
+# SPDX-License-Identifier: EUPL-1.2
+
+[workspace.package]
+edition = "2021"
+authors = ["László Vaskó <vlaci@fastmail.com>"]
+license = "EUPL-1.2"
+
+[workspace]
+resolver = "2"
+members = [
+    "2024/01",
+]
