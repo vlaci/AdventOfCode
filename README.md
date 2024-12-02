@@ -10,3 +10,6 @@ SPDX-License-Identifier: EUPL-1.2
 
 ### [01](2024/01)
 * [Rust](2024/01/src/main.rs)
+
+### [02](2024/02)
+* [Rust](2024/02/src/main.rs)

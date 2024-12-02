@@ -11,4 +11,5 @@ license = "EUPL-1.2"
 resolver = "2"
 members = [
     "2024/01",
+    "2024/02",
 ]

@@ -1,0 +1,16 @@
+# SPDX-FileCopyrightText: 2024 László Vaskó <vlaci@fastmail.com>
+#
+# SPDX-License-Identifier: EUPL-1.2
+
+[package]
+name = "day02"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+color-eyre = "0.6.3"
+peg = "0.8.4"
+
+[dev-dependencies]
+indoc = "2.0.5"
+rstest = "0.23.0"
