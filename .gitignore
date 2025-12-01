@@ -3,5 +3,11 @@
 # SPDX-License-Identifier: EUPL-1.2
 
 /.direnv
-/target
 .pre-commit-config.yaml
+
+# Rust
+/target
+
+# Janet
+build/
+/.jpm

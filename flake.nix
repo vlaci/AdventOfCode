@@ -69,7 +69,13 @@
         in
         {
           default = pkgs.mkShell {
-            inherit (pre-commit-check.${system}) shellHook;
+            shellHook = ''
+              export JANET_TREE=''${JANET_TREE:=$(realpath ./.jpm)}
+              export JANET_LIBPATH=${pkgs.janet}/lib
+              export JANET_BUILDPATH=$(realpath ./build)
+            ''
+            + pre-commit-check.${system}.shellHook;
+
             packages =
               with pkgs;
               [
@@ -78,6 +84,7 @@
                 rustfmt
                 clippy
                 janet
+                jpm
               ]
               ++ pre-commit-check.${system}.enabledPackages;
           };

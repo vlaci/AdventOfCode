@@ -10,6 +10,9 @@
     :command (* :direction :amount (any :s))
     :main (* (some :command) -1)})
 
+(defn parse [input]
+  (peg/match grammar input))
+
 (defn part-1 [commands]
   (var position 50)
   (var password 0)
@@ -34,7 +37,7 @@
         "R" 1)]
       (var delta (* direction amount))
       (def new (+ position delta))
-      (var increment (div (math/abs (if (or (> delta 0) (= position 0))
+      (def increment (div (math/abs (if (or (> delta 0) (= position 0))
                                       new
                                       (- new 100)))
 			  100))
@@ -42,8 +45,12 @@
       (+= password increment)))
   password)
 
-(defn main [&]
-  (def input (string/trim (file/read stdin :all)))
+(defn main [cmd & args]
+  (if (not= (length args) 1)
+    (do
+      (printf "Usage: %s <input>" cmd)
+      (os/exit 1)))
+  (def input (string/trim (slurp (get args 0))))
   (def commands (peg/match grammar input))
-  (print (part-1 commands))
-  (print (part-2 commands)))
+  (print "Part 1 solution is " (part-1 commands))
+  (print "Part 2 solution is " (part-2 commands)))
