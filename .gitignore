@@ -1,7 +1,7 @@
-# SPDX-FileCopyrightText: 2024 László Vaskó <vlaci@fastmail.com>
+# SPDX-FileCopyrightText: 2024-2025 László Vaskó <vlaci@fastmail.com>
 #
 # SPDX-License-Identifier: EUPL-1.2
 
-/.devenv
 /.direnv
 /target
+.pre-commit-config.yaml
