@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Eric Wastl
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 ## --- Day 3: Mull It Over ---
 
 "Our computers are having issues, so I have no idea if we have any Chief

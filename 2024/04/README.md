@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Eric Wastl
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 ## --- Day 4: Ceres Search ---
 
 "Looks like the Chief's not here. Next!" One of The Historians pulls out

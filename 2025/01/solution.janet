@@ -1,4 +1,8 @@
 #!/usr/bin/env janet
+# SPDX-FileCopyrightText: 2025 László Vaskó <opensource@vlaci.email>
+#
+# SPDX-License-Identifier: EUPL-1.2
+
 
 (def grammar
   '{:direction (capture (choice "L" "R"))

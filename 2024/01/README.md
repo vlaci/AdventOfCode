@@ -4,8 +4,6 @@ SPDX-FileCopyrightText: 2024 Eric Wastl
 SPDX-License-Identifier: CC0-1.0
 -->
 
-# [Advent of Code](https://adventofcode.com/)
-
 ## --- Day 1: Historian Hysteria ---
 
 The *Chief Historian* is always present for the big Christmas sleigh

@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Eric Wastl
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 ## --- Day 5: Print Queue ---
 
 Satisfied with their search on Ceres, the squadron of scholars suggests

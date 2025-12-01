@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Eric Wastl
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 ## --- Day 2: Red-Nosed Reports ---
 
 Fortunately, the first location The Historians want to search isn't a
