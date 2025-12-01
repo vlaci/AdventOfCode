@@ -10,10 +10,10 @@ fn main() -> Result<()> {
     color_eyre::install()?;
 
     let parsed: WordSearch = INPUT.parse()?;
-    let part1 = parsed.count(&*XMAS);
+    let part1 = parsed.count(&XMAS);
     println!("The answer to the 1st part is {part1}");
 
-    let part2 = parsed.count(&*MAS_AS_X);
+    let part2 = parsed.count(&MAS_AS_X);
     println!("The answer to the 2nd part is {part2}");
     Ok(())
 }
