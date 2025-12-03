@@ -32,3 +32,16 @@
 (test (impl/invalid? 1188911885) false)
 
 (test (impl/part-1 ranges) 1227775554)
+
+(test (impl/invalid-2? 1) false)
+(test (impl/invalid-2? 10) false)
+(test (impl/invalid-2? 11) true)
+(test (impl/invalid-2? 1010) true)
+(test (impl/invalid-2? 1188511885) true)
+(test (impl/invalid-2? 1188911885) false)
+
+(test (impl/invalid-2? 999) true)
+(test (impl/invalid-2? 446446) true)
+(test (impl/invalid-2? 565656) true)
+
+(test (impl/part-2 ranges) 4174379265)
